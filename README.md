@@ -1,1 +1,4 @@
-# movie-recommender
+# Movie Recommender
+Although recommender systems are widely used in modern artificial intelligence, particularly in retail and entertainment industries, many of existing systems in businesses that still use classical methods such as matrix factorisation are found incapable of capturing all of the information now available. One approach to mitigate this issue is to introduce nonlinearity to the system, such as deep nueral network layers in this case, which can improve the performance of recommender systems by both capturing more of the complex patterns of information that are present, and by making it easier to add new information in the form of further data feature columns.
+
+This project uses [TensorFlow Datasets (TFDS)](https://www.tensorflow.org/datasets) and the [TensorFlow Recommenders library (TFRS)](https://www.tensorflow.org/recommenders) to show how the addition of deep learning to a recommender model improves its performance.
